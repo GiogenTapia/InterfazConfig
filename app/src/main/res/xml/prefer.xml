@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Activar modo oscuro">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="oscuro"
+        android:summaryOff="Modo oscuro desacticado"
+        android:summaryOn="Modo oscuro activado"
+        android:title="Modo oscuro"
+        >
+    </CheckBoxPreference>
+
+</PreferenceCategory>
+</PreferenceScreen>
